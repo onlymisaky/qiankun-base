@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Vue",
+    "entry": "//localhost:8090",
+    "container": "#container",
+    "activeRule": "/vue"
+  },
+  {
+    "name": "Vue vite",
+    "entry": "//localhost:3000",
+    "container": "#container",
+    "activeRule": "/vue-vite"
+  },
+  {
+    "name": "React",
+    "entry": "//localhost:3000",
+    "container": "#container",
+    "activeRule": "/react"
+  }
+]
