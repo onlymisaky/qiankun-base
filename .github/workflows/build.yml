@@ -27,5 +27,5 @@ jobs:
         npm install
         touch .env.github
         echo "BASE_URL=/qiankun-base/dist/" > .env.github
-        npm run build
+        npm run build:github
         cp ./dist/index.html ./dist/404.html
