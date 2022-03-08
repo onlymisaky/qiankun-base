@@ -2,7 +2,7 @@ name: NodeJS with Webpack
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, dev ]
   pull_request:
     branches: [ master ]
 
@@ -29,3 +29,4 @@ jobs:
         echo "BASE_URL=/qiankun-base/dist/" > .env.github
         npm run build:github
         cp ./dist/index.html ./dist/404.html
+        ls
